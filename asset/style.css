@@ -1,0 +1,32 @@
+body{
+    height: 100vh;
+    max-height: 100%;
+}
+
+.none{
+display: none;
+}
+
+small{
+    text-align: left;
+}
+
+.enter{
+    width: 80%;
+    height: 20%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buttonrow{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.buttonrow>input{
+    width: 5rem;
+}

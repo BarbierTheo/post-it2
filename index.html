@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post-it</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css">
+    <link rel="stylesheet" href="./asset/style.css">
+</head>
+
+<body class="pico-background-violet-100">
+
+    <details>
+        <summary>Ajouter un post-it</summary>
+        <div class="enter">
+            <input type="text" class="" id="titlePostItEntry" placeholder="Titre du post-it">
+            <small id="invalid-helper1" class="none">
+                Veuillez entrer un titre !
+            </small>
+            <textarea class="" id="textPostItEntry" placeholder="Contenu du post-it"></textarea>
+            <small id="invalid-helper2" class="none">
+                Veuillez entrer le contenu du post-it !
+            </small>
+            <div class="buttonrow">
+                <input type="color" value="#ff9500" aria-label="Color picker">
+                <button type="button" class="" id="validateButton">Valider</button>
+                <button type="button" class="" id="cancelButton">Annuler</button>
+                <button type="button" class="" id="resetButton">
+                    Reset
+                </button>
+            </div>
+        </div>
+    </details>
+
+
+
+    <div class="container" id="postit">
+
+    </div>
+    <script src="./asset/js/script.js"></script>
+</body>
+
+</html>
